@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazgul's Car rental</title>
+
+<link rel="stylesheet" href="./styles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+ crossorigin="anonymous">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Logo starts here -->
+        <div class="row myrow1">
+          <div class="col-5">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="./images/Screen Shot 2021-09-01 at 11.07.30 am.png" 
+                    alt="logo of the company" width="30%" height="auto" id="top">
+                  </a>
+                </div>
+              </nav>
+
+
+
+
+          </div>
+          <!-- Navigation starts here -->
+          <div class="col-7">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                
+                <div class="collapse navbar-collapse justify-content-end" id="navbarText" >
+                  <ul class="navbar-nav mr-auto ">
+        
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#cars">Cars <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#enquires">Enquires</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contacts</a>
+                    </li>
+
+                  </ul>
+                
+                </div>
+              </nav>
+            
+
+
+
+
+
+          </div>
+        </div>
+
+        <div class="row myrow2">
+            <div class="col-12">
+                <p class="h1 mytitle">Vintage cars for hire</p>
+            </div>
+        
+          </div>
+
+
+          <div class="row myrow3">
+              <h2 id="cars">Cars</h2>
+            <div class="mycontainer">
+
+            <div class="col-3">
+                <div class="card mycard" style="width: 18rem;">
+                    <img src="./images/vita-leonis-V_GaeWOwCn8-unsplash.jpg" class="card-img-top" alt="Rolls-Royce car">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Rolls-Royce</strong></p>
+                      <p class="card-text">Based on the first full-size car Rolls-Royce made after the war, 
+                          the original Silver Dawn drophead launched in 1949 and retired in 1954... 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card mycard" style="width: 18rem;">
+                    <img src="./images/alonso-moreno-RHGM6uAYhmU-unsplash.jpg" class="card-img-top" alt="Chevrolet Corvette car">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Chevrolet Corvette</strong></p>
+                      <p class="card-text">The Chevrolet Corvette, colloquially known as the 'Vette, is a two-door, 
+                          two-passenger sports car manufactured and marketed
+                         more than 60 years...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card mycard" style="width: 18rem;">
+                    <img src="./images/vita-leonis-36dXVB6B6uU-unsplash.jpg" class="card-img-top" alt="Chevrolet Camaro car">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Chevrolet Camaro</strong></p>
+                      <p class="card-text"> The original Camaro served as Chevrolet's answer to the Mustang–but 
+                          with more style and power. General Motors introduced the Camaro in 1967, 
+                          setting...
+                        </p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card mycard" style="width: 18rem;">
+                    <img src="./images/fiat124.jpeg" class="card-img-top" alt="Fiat 124 car">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Fiat 124</strong></p>
+                      <p class="card-text">The Pininfarina-designed Fiat 124 Spider debuted
+                           in the U.S. in 1968 to an eager audience. "It doesn't have much power, 
+                           but it's cute," Martin says... </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <div class="row myrow4">
+            <h2 id="enquires">Enquire About a Car</h2>
+            <br>
+            <div class="col-6 myform">
+              <div class="row mb-3"></div>
+
+
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1">
+              </div>
+              
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select the car</option>
+                <option value="1">Rolls-Royce</option>
+                <option value="2">Chevrolet Corvette</option>
+                <option value="3">Chevrolet Camaro</option>
+                <option value="4">Fiat 124</option>
+              </select>
+
+
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              
+             
+
+              <button type="submit" class="btn btn-dark sbmtbtn">Submit</button>
+              
+
+            </div>      
+            </div>
+            <br>
+          <div class="row myrow5">
+            <h2 id="contact">Contacts</h2>
+                           <div class="textaddres col-3">
+               <p><strong> RentCar, Inc.</strong></p>
+               <p>
+                   <strong>Adress: </strong> 123 Queens St, Suite 777 <br>
+                   Melbourne, VIC 3000
+                
+                </p>
+               <p> <strong>Phone:</strong> (123) 456-7890</p>
+               <p> <strong>Email:</strong> asdfggj@gmail.com</p>
+            </div>
+       
+               
+               <div class="mapaddress col-9">
+               <p> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.902495425037!2d144.95852161543473!3d-37.81575277975208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4b4e5e5cc7%3A0xa83196f3e3ff7136!2s123%20Queen%20St%2C%20Melbourne%20VIC%203000!5e0!3m2!1sen!2sau!4v1630467177785!5m2!1sen!2sau" 
+                width="400"
+                 height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+               </p>
+            </div>
+
+
+          </div>
+        
+
+          
+            
+          </div>
+
+
+    </div>
+    
+
+    <br>
+<div>
+    <a href="#top" id="goHomeButton">Home Page</a>
+</div>
+   
+    <br>
+    <footer>
+        All rights reserved 2021
+    </footer>
+</body>
+</html>

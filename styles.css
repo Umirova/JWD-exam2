@@ -1,0 +1,53 @@
+.logoimg{
+    width: 25%;
+    height: auto;
+}
+
+.mytitle{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mycontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myform{
+border: black solid 1px;
+background-color: rgb(216, 36, 66);
+margin: 0 auto;
+}
+
+.sbmtbtn{
+    margin-bottom: 1rem;
+}
+
+footer{
+    border: black solid 1px;
+    background-color: rgb(216, 36, 66);
+    margin: 0 auto; 
+    text-align: center;
+    color: white;
+}
+
+.mycard img {
+    height: 15rem;
+    width: 18rem;
+
+    border-radius: 10%;
+}
+
+*{
+    margin-top: 5px;
+}
+
+  
+
+#goHomeButton{
+    font-size: 1.5rem;
+    margin-left: 12rem;
+}
+.mytitle {
+    font-family: 'Alegreya', serif;
+}
